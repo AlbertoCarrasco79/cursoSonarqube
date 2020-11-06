@@ -1,0 +1,9 @@
+#Apache
+
+mvn archetype:generate \
+    -DgroupId=curso.es \
+    -DartifactId=mi-aplicacion \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DarchetypeVersion=1.4 \
+    -DinteractiveMode=false
+
